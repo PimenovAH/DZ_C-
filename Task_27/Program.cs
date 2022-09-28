@@ -16,11 +16,9 @@ void Raschet()
     {
 
     int result = 0;
-    int b = 0;
-
         for(int i = 1; i <= A; i++)
         {    
-         result += (A - b) % 10;  
+         result += A  % 10;  
          A /= 10;       
         }
     
