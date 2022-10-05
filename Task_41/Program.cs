@@ -13,6 +13,7 @@ double[] FillA()
         }
     return arr;
 }
+// или за место Filla int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
 double ChetArray(double[] arr)
 {
