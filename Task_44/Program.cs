@@ -16,8 +16,8 @@ for(int i = 2; i < numm.Length;i++)
     {
         numm[i] = numm[i-1] + numm[i-2];
     }
-Console.Write($"{size} -> ");
-PrintArray(numm);
+ Console.Write($"{size} -> ");
+ PrintArray(numm);
 
 
 
